@@ -5,7 +5,7 @@
   (cond
     (and (nil? previous) (= current "(")) 0
     (or (contains? #{"("} current) (re-matches #"[a-z]+" current)) (+ previous 1)
-    (contains? #{")" "OR" "AND" "IMPL"} current) (- previous 1)
+    (contains? #{")" "OR" "AND" "IMPL" "IFF"} current) (- previous 1)
     (contains? #{"NOT"} current) previous
     :else (throw (IllegalArgumentException.))))
 
