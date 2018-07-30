@@ -6,6 +6,8 @@ main-conjunction
 [![Build Status](https://travis-ci.org/albrzykowski/main-conjunction.svg?branch=master)](https://travis-ci.org/albrzykowski/main-conjunction)
 [![codecov](https://codecov.io/gh/albrzykowski/main-conjunction/branch/master/graph/badge.svg)](https://codecov.io/gh/albrzykowski/main-conjunction)
 
+Project is inspired by [Automatyczne dowodzenie twierdzeń](https://www.researchgate.net/publication/44008571_Automatyczne_dowodzenie_twierdzen) authored by Polish mathematician [Zdzisław Pawlak](https://pl.wikipedia.org/wiki/Zdzisław_Pawlak). More about main conjunction you can find here: [Klasyczny rachunek zdań](https://repozytorium.umk.pl/bitstream/handle/item/2975/M.%20Nasieniewski%2C%20Klasyczny%20rachunek%20zdań.%20z%20M.%20Urchsem%20i%20S.%20Kwiatkowskim%2C%20Wyd%2C%20UMK%2C%20Toruń%201997%20CALA%20KSIAZKA.pdf?sequence=1).
+
 ## Main conjunction
 
 How formula element's value is calculated:
@@ -13,6 +15,8 @@ How formula element's value is calculated:
 2. `F(x_<sub>i+1</sub>) = F(x_<sub>i</sub>) + 1` when `F(x_<sub>i</sub>) IN {"(" "a" "b" "c" ...}`.
 3. `F(x_<sub>i+1</sub>) = F(x_<sub>i</sub>) - 1` when `F(x_<sub>i</sub>) IN {")" "OR" "AND"  "IMPL" "IFF"}`.
 4. `F(x_<sub>i+1</sub>) = F(x_<sub>i</sub>)` when `F(x_<sub>i</sub>) IN {"NOT"}`.
+
+Main conjunction (except first and last bracket) has value `0`.
 
 ## Examples
 
