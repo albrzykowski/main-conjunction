@@ -1,9 +1,9 @@
 main-conjunction
 ===========
 
-[![Build Status](https://travis-ci.org/albrzykowski/main-conjunction.svg?branch=master)](https://travis-ci.org/albrzykowski/main-conjunction)
+[![Clojars Project](https://clojars.org/re.blacksqua/main-conjunction/latest-version.svg)](https://clojars.org/re.blacksqua/main-conjunction)
 
-[![Build Status](https://travis-ci.com/albrzykowski/main-conjunction.svg?branch=master)](https://travis-ci.com/albrzykowski/main-conjunction)
+[![Build Status](https://travis-ci.org/albrzykowski/main-conjunction.svg?branch=master)](https://travis-ci.org/albrzykowski/main-conjunction)
 [![codecov](https://codecov.io/gh/albrzykowski/main-conjunction/branch/master/graph/badge.svg)](https://codecov.io/gh/albrzykowski/main-conjunction)
 
 ## Main conjunction
