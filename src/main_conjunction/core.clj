@@ -20,4 +20,8 @@
 (defn main-conj-pos [els-vals]
   (map first 
     (filter #(= (second %) 0)
-      (map-indexed vector els-vals))))    
+      (map-indexed vector els-vals))))
+
+(defn -main [& args]
+  (def fo (split "( p AND ( q OR r ) )" #" "))
+  (println (calc-els-vals fo)))      

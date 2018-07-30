@@ -18,5 +18,4 @@
   (testing "If main conjuctions positions are returned"
     (def formula (split "( ( NOT ( p OR q ) OR q ) AND ( p AND NOT r ) )" #" "))
     (def result '(0 11 18))
-    (is (= (main-conj-pos (calc-els-vals formula)) result))))     
-    
+    (is (= (main-conj-pos (calc-els-vals formula)) result))))
