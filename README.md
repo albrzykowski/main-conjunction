@@ -12,7 +12,7 @@ How formula element's value is calculated:
 1. `F(x_<sub>1</sub>) = 0`
 2. `F(x_<sub>i+1</sub>) = F(x_<sub>i</sub>) + 1` when `F(x_<sub>i</sub>) IN ("(" "a" "b" "c" ...)`
 3. `F(x_<sub>i+1</sub>) = F(x_<sub>i</sub>) - 1` when `F(x_<sub>i</sub>) IN (")" "OR" "AND" "IMPL" "IFF")`
-4. `F(x_<sub>i+1</sub>) = F(x_<sub>i</sub>)` when `F(x_<sub>i</sub>) IN {"OR"}` 
+4. `F(x_<sub>i+1</sub>) = F(x_<sub>i</sub>)` when `F(x_<sub>i</sub>) IN {"NOT"}` 
 
 ## Examples
 Let `f` be the formula: `( p AND ( q OR r ) )`
