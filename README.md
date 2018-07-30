@@ -6,7 +6,7 @@ main-conjunction
 [![Build Status](https://travis-ci.org/albrzykowski/main-conjunction.svg?branch=master)](https://travis-ci.org/albrzykowski/main-conjunction)
 [![codecov](https://codecov.io/gh/albrzykowski/main-conjunction/branch/master/graph/badge.svg)](https://codecov.io/gh/albrzykowski/main-conjunction)
 
-Project is inspired by [Automatyczne dowodzenie twierdzeń](https://www.researchgate.net/publication/44008571_Automatyczne_dowodzenie_twierdzen) authored by Polish mathematician [Zdzisław Pawlak](https://pl.wikipedia.org/wiki/Zdzisław_Pawlak). More about main conjunction you can find here: [Klasyczny rachunek zdań](https://repozytorium.umk.pl/bitstream/handle/item/2975/M.%20Nasieniewski%2C%20Klasyczny%20rachunek%20zdań.%20z%20M.%20Urchsem%20i%20S.%20Kwiatkowskim%2C%20Wyd%2C%20UMK%2C%20Toruń%201997%20CALA%20KSIAZKA.pdf?sequence=1).
+Project is inspired by book "[Automatyczne dowodzenie twierdzeń](https://www.researchgate.net/publication/44008571_Automatyczne_dowodzenie_twierdzen)" authored by Polish mathematician [Zdzisław Pawlak](https://pl.wikipedia.org/wiki/Zdzisław_Pawlak). More about main conjunction you can find here: [Klasyczny rachunek zdań](https://repozytorium.umk.pl/bitstream/handle/item/2975/M.%20Nasieniewski%2C%20Klasyczny%20rachunek%20zdań.%20z%20M.%20Urchsem%20i%20S.%20Kwiatkowskim%2C%20Wyd%2C%20UMK%2C%20Toruń%201997%20CALA%20KSIAZKA.pdf?sequence=1).
 
 ## Main conjunction
 
