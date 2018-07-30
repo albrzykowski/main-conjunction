@@ -15,6 +15,9 @@ How formula element's value is calculated:
 4. `F(x_<sub>i+1</sub>) = F(x_<sub>i</sub>)` when `F(x_<sub>i</sub>) IN {"NOT"}`.
 
 ## Examples
+
+### Example 1.
+
 Let `f` be the formula: `( p AND ( q OR r ) )`
 
 We can present formula `f` as a tree: 
@@ -26,3 +29,13 @@ We can present formula `f` as a tree:
                          q            r
 
 In this example main conjunction is `AND`. The calculated values for the formula is: `[0 1 0 1 2 1 2 1 0]`.
+
+### Example 2.
+Let `f` be the formula: `( ( NOT ( p OR q ) OR q ) AND ( p AND NOT r ) )`
+
+Table presenting calculated values:
+
+|   | ( | ( | NOT | ( | p | OR | q | ) | OR | q | ) | AND | (  | p | AND | NOT | r | ) | ) | 
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|| 1 | 2 | 3 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20|
+|| 0 | 1 | 1 | 2 | 3 | 2 | 3 | 2 | 1 | 2 | 1 | 0 | 1 | 2 | 1 | 1 | 2 | 1 | 0 |
