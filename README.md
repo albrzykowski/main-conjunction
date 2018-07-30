@@ -19,11 +19,10 @@ Let `f` be the formula: `( p AND ( q OR r ) )`
 
 We can present formula `f` as a tree: 
 
-    ( p AND ( q OR r ) )
-   /                    \
-  p                      ( q OR r )
-                         /         \
-                        q           r
+      ( p AND ( q OR r ) )
+     /                    \
+    p                      ( q OR r )
+                          /          \
+                         q            r
 
 In this example main conjunction is `AND`. The calculated values for the formula is: `[0 1 0 1 2 1 2 1 0]`.
- 
